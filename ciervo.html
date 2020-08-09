@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="Description" content="">
+	<meta name="Keyboards" content="">
+	<title>ANIMALES ARGENTINOS</title>
+	<link rel="stylesheet" type="text/css" href="css/Estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/Mamiferos.css">
+	<link rel="stylesheet" type="text/css" href="css/Colores.css">
+	<script src="js/TemasCiervo.js"></script>
+	<script src="js/CambiaColor.js"></script>
+</head>
+<body>
+<div id="pagina" style="background-color: #550000;width:1300px;height:700px">	
+<header>
+	<div class="LogoWeb">
+		<img src="imagenes/Isidoro1.jpg" width="50%" height="50%">
+	</div>
+	<div class="Titulo">
+		<h1>ANIMALES ARGENTINOS</h1>
+	</div>
+	<div class="BotonesColores">
+		<div class="BotonAzul">
+		 	<a href="" onmouseover="Color('#0000FF')" onmouseout="Color('#550000')"> 
+				Azul
+		 	</a> 
+		</div>
+
+		<div class="BotonPlateado">
+			<a href="" onmouseover="Color('#990000')" onmouseout="Color('#550000')">
+				Bord
+			</a>
+		</div>
+
+		<div class="BotonBordo">
+			<a href="">
+				<img src="/imagenes/checkmark.png" width="16" height="16" onclick="Bordo()">
+			</a>			
+		</div>
+
+		<div class="BotonVainilla">
+			<a href="#" onmouseover="Color('#F7DB8C')" onmouseout="Color('#550000')">
+				vain
+			</a>			
+		</div>		
+	</div>
+	
+	<div class="MenuHori">
+		<nav class="Menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="quienes.html">Quienes Somos</a></li>
+				<li><a href="">Mamíferos</a>
+ 					<ul class="SubMenu">
+						<li><a href="carpincho.html">Carpincho</a></li>
+						<li><a href="ciervo.html">Ciervo</a></li>
+						<li><a href="coati.html">Coatí</a></li>
+						<li><a href="ballena.html">Ballena</a></li>
+						<li><a href="guanaco.html">Guanaco</a></li>
+						<li><a href="huemul.html">Huemul</a></li>
+						<li><a href="puma.html">Puma</a></li>
+						<li><a href="yaguarete.html">Yaguareté</a></li>
+						<li><a href="tatu.html">Tatú Carreta</a></li>
+					</ul> 
+				</li>
+				<li><a href="">Reptiles</a>
+ 					<ul class="SubMenu">
+						<li><a href="yacare.html">Yacaré</a></li>	
+					</ul> 
+				</li>
+				<li><a href="">Aves</a>
+ 					<ul class="SubMenu">
+						<li><a href="condor.html">Cóndor</a></li>
+						<li><a href="niandu.html">Ñandú</a></li>
+						<li><a href="tucan.html">Tucán</a></li>
+						<li><a href="pinguino.html">Pinguino</a></li>
+					</ul> 
+				</li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>	
+	</div>
+
+</header>
+
+<section>
+	<aside>
+		<div class="MenuVert">
+			<nav>
+				<ul>
+					<li><a href="carpincho.html">Carpincho</a></li>
+					<li><a href="ciervo.html">Ciervo</a></li>
+					<li><a href="coati.html">Coatí</a></li>
+					<li><a href="condor.html">Cóndor</a></li>
+					<li><a href="ballena.html">Ballena</a></li>
+					<li><a href="guanaco.html">Guanaco</a></li>
+					<li><a href="huemul.html">Huemul</a></li>
+					<li><a href="niandu.html">Ñandú</a></li>
+					<li><a href="pinguino.html">Pinguino</a></li>
+					<li><a href="puma.html">Puma</a></li>
+					<li><a href="tatu.html">Tatú Carreta</a></li>
+					<li><a href="tucan.html">Tucán</a></li>
+					<li><a href="yacare.html">Yacaré</a></li>
+					<li><a href="yaguarete.html">Yaguareté</a></li>
+				</ul>
+			</nav>			
+		</div>
+	</aside>
+	<div class="ArticuloMamiferos">
+		<article>
+			<h2>MAMIFERO - CIERVO</h2><br>
+			<div class="MamiferosTexto">
+				<h3>Temas disponibles</h3>
+				<select id="Ciervo" onchange="Eligio()">
+					<option value="0" selected>Seleccione una Opción</option>
+					<option value="1">Características</option>
+					<option value="2">Nombre</option>
+					<option value="3">Hábitat</option>
+					<option value="4">Alimentación</option>
+					<option value="5">Sus crías</option>
+					<option value="6">Por qué está en peligro</option>
+				</select><br><br>
+
+				<h2>Ciervo de los pantanos</h2><br><br><br>
+				<h3 id="Titulo"></h3><br><br>
+				<p id="SubTitulo"></p>
+			</div>
+
+		</article>		
+	</div>
+
+	<div class="ArticuloGaleriaMamiferos">
+		<article>
+			<div class="MamiferosImagen">
+				<div class="ciervo"></div>
+			</div>
+		</article>		
+	</div>
+
+</section>
+<footer><h5>Fauna Argentina - 2019</h5></footer>
+</div>
+</body>
+</html>

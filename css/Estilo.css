@@ -1,0 +1,367 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+/*	background-color: #550000;*/
+ /* background-image: linear-gradient( #400000, #800000, #400000);*/
+	/*width: 1300px;
+	height: 700px;*/
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 12px;
+	font-style: justify;
+	color: 	#FFFFFF;
+}
+
+header{
+width: 100%;
+height: 150px;
+float: left;
+}
+
+section{
+width: 100%;
+height: 400px;
+}
+
+footer{
+width: 100%;
+height: 50px;
+}
+
+
+/**************** CABECERA ***************/
+.LogoWeb{
+float: left;
+margin-left: 25px;
+margin-top: 10px;
+
+}
+
+.Titulo{
+float: left;
+padding-top: 20px;
+font-size: 18px;
+text-align: center;
+text-shadow: 14px 12px #000000;
+letter-spacing: 3px;
+color: #FF8000;
+word-spacing: 5px;
+
+}
+
+/******************** BOTONES DE COLORES **********/
+.BotonesColores{
+padding-top: 20px;
+padding-left: 50px;
+float: left;
+}
+
+.BotonesColores .BotonAzul{
+	float: left;
+	width: 25px;
+	height: 25px;
+
+	border-radius: 100%;
+	border-style: solid;
+	border-color:  #0000FF;
+	background-color: #0000FF;
+
+	transition: width: 2s, height: 4s;
+}
+
+.BotonesColores .BotonPlateado{
+	float: left;
+	width: 25px;
+	height: 25px;
+
+	border-radius: 100%;
+	border-style: solid;
+	border-color:  #6C6C6C;
+	background-color: #6C6C6C;
+	margin-left: 15px;
+
+	transition: width: 2s, height: 4s;
+}
+
+.BotonesColores .BotonBordo{
+	float: left;
+	width: 25px;
+	height: 25px;
+
+	border-radius: 100%;
+	border-style: solid;
+	border-color:  #710000;
+	background-color: #710000;
+	margin-left: 15px;
+
+	transition: width: 2s, height: 4s;
+}
+
+.BotonesColores .BotonVainilla{
+	float: left;
+	width: 25px;
+	height: 25px;
+
+	border-radius: 100%;
+	border-style: solid;
+	border-color:  #ECD54F;
+	background-color: #ECD54F;
+	margin-left: 15px;
+
+	transition: width: 2s, height: 4s;
+}
+
+
+/***********************/
+
+/*********** menu horizontal ********/
+
+.MenuHori{
+clear: both;
+float: left;
+width: 75%;
+height: 35px;
+background-color: #949494;
+border-color: #000000;
+border-style: solid;
+border-width: 4px;
+border-radius: 10px;
+padding-left: 10px;
+padding-top: 10px;
+margin-left: 200px;
+margin-top: 20px;
+/*text-align: center;*/
+}
+
+.Menu ul{
+	list-style: none;
+}
+
+.Menu > ul > li{
+	display: inline-block; 
+}
+
+.Menu > ul > li > a
+{
+	text-decoration: none;
+	background-color: #800000;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
+	display: block;
+	width: 155px;
+	height: 25px;
+	padding-top: 1px;
+}
+
+
+
+.Menu > ul > li > a:hover{
+	background-color: #FF9393;
+}
+
+/************************************/
+
+/********** SUBMENU ********/
+
+.SubMenu{
+	position: absolute;
+	display: none;
+}
+
+.SubMenu li a{
+	text-decoration: none;
+	background-color: #800000;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bolder;
+	display: block;
+	width: 145px;
+	height: 25px;
+	padding: 5px;
+}
+
+.Menu > ul > li:hover .SubMenu{
+	display: block;
+}
+
+.SubMenu li a:hover{
+	background-color: #FF9393;|	1
+}
+/***************************/
+
+/************** CUERPO **********/
+
+aside{
+	float: left;
+	width: 10%;
+	height: 100%;
+	background-color: #FF0000;
+	margin-top: 60px;
+	margin-left: 25px;
+	padding-top: 5px;
+	padding-left: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 2px;
+	border-color: #000000:;
+}
+
+.ArticuloObjetivo{
+	float: left;
+	width: 85%;
+	height: 47%;
+	margin-top: 60px;
+	margin-left: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: #000000;
+}
+.ArticuloFundamentacion{
+	float: left;
+	width: 85%;
+	height: 52%;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: #000000;
+}
+
+.ArticuloObjetivo h2{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.ArticuloObjetivo .ObjetivoTexto > h3{
+	padding-top: 5px;
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+
+}
+
+.ArticuloObjetivo .ObjetivoTexto > p{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+	width: 80%;
+	font-size: 15px;
+	float: left;
+
+}
+
+.ArticuloObjetivo .ObjetivoImagen > img{
+	float: left;
+	padding-left: 20px;
+	padding-right: 15px;
+
+}
+
+.ArticuloFundamentacion .FundamentacionTexto h3{
+	padding-top: 15px;
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+
+}
+
+.ArticuloFundamentacion .FundamentacionTexto > p{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	font-size: 15px;
+	float: left;
+	text-align: justify;
+	width: 80%;
+}
+
+.ArticuloFundamentacion .FundamentacionImagen > img{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	border-radius: 50%;
+}
+/**********************************/
+
+
+/********** MENU VERTICAL ******/
+
+.MenuVert ul{
+ list-style: none;
+}
+
+.MenuVert a{
+	background-color: #800000;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bolder;
+	width: 122px;
+	height: 26px;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #000000;
+	padding-left: 2px;
+}
+
+.MenuVert li{
+	display: block;
+}
+
+.MenuVert a:hover{
+	background-color: #FF9393;
+}
+
+/************************/
+
+/***** BOTONES DE COLORES, AUMENTA TAMAÑO *********/
+
+.BotonesColores .BotonAzul:hover{
+
+	width: 44px;
+	height: 44px;
+
+}
+
+.BotonesColores .BotonPlateado:hover{
+
+	width: 44px;
+	height: 44px;
+
+}
+
+.BotonesColores .BotonBordo:hover{
+
+	width: 44px;
+	height: 44px;
+
+}
+
+.BotonesColores .BotonVainilla:hover{
+
+	width: 44px;
+	height: 44px;
+
+}
+
+/*************************/
+
+footer > h5{
+	float: none;
+	clear: both;
+	text-align: center;
+
+}
+

@@ -1,0 +1,71 @@
+/************** CUERPO **********/
+
+.ArticuloQuienes{
+	float: left;
+	width: 85%;
+	height: 100%;
+	margin-top: 45px;
+	margin-left: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: #000000;
+}
+
+
+.ArticuloQuienes .Quienes{
+	float: left;
+	width: 100%;
+	height: 60%;
+
+}
+
+
+
+.ArticuloQuienes h2{
+	text-align: center;
+	padding-top: 5px;
+	font-weight: bolder;
+	font-size: 16px;
+	color: orange;
+}
+
+
+.ArticuloQuienes .Quienes p{
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	text-align: justify;
+	font-size: 14px;
+	float: left;
+	height: 90%;
+	/*overflow: auto;*/
+}
+
+
+.ArticuloGaleriaQuienes{
+	text-align: justify;
+	width: 40%;
+	height: 30%;
+	font-size: 14px;
+	float: right;
+	
+
+}
+
+
+
+.ArticuloGaleriaQuienes h3{
+	font-size: 14px;
+	padding-left: 10px;
+	text-decoration: underline;
+}
+
+.ArticuloGaleriaQuienes p{
+	padding-left: 5px;
+	padding-right: 5px;
+font-size: 12px;
+	
+}
+

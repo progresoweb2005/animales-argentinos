@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="Description" content="">
+	<meta name="Keyboards" content="">
+	<title>ANIMALES ARGENTINOS</title>
+	<link rel="stylesheet" type="text/css" href="css/Estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/Contacto.css">
+	<link rel="stylesheet" type="text/css" href="css/Colores.css">
+	<script src="js/CambiaColor.js"></script>
+</head>
+<body>
+<div id="pagina" style="background-color: #550000;width:1300px;height:700px">
+<header>
+	<div class="LogoWeb">
+		<img src="imagenes/Isidoro1.jpg" width="50%" height="50%">
+	</div>
+	<div class="Titulo">
+		<h1>ANIMALES ARGENTINOS</h1>
+	</div>
+	<div class="BotonesColores">
+		<div class="BotonAzul">
+		 	<a href="" onmouseover="Color('#0000FF')" onmouseout="Color('#550000')"> 
+				Azul
+		 	</a> 
+		</div>
+
+		<div class="BotonPlateado">
+			<a href="" onmouseover="Color('#808080')" onmouseout="Color('#550000')">
+				Plat
+			</a>
+		</div>
+
+		<div class="BotonBordo">
+			<a href="" onmouseover="Color('#990000')" onmouseout="Color('#550000')">
+				Bord
+			</a>		
+		</div>
+
+		<div class="BotonVainilla">
+			<a href="#" onmouseover="Color('#F7DB8C')" onmouseout="Color('#550000')">
+				vain
+			</a>			
+		</div>		
+	</div>
+	
+	<div class="MenuHori">
+		<nav class="Menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="quienes.html">Quienes Somos</a></li>
+				<li><a href="">Mamíferos</a>
+ 					<ul class="SubMenu">
+						<li><a href="carpincho.html">Carpincho</a></li>
+						<li><a href="ciervo.html">Ciervo</a></li>
+						<li><a href="coati.html">Coatí</a></li>
+						<li><a href="ballena.html">Ballena</a></li>
+						<li><a href="guanaco.html">Guanaco</a></li>
+						<li><a href="huemul.html">Huemul</a></li>
+						<li><a href="puma.html">Puma</a></li>
+						<li><a href="yaguarete.html">Yaguareté</a></li>
+						<li><a href="tatu.html">Tatú Carreta</a></li>
+					</ul> 
+				</li>
+				<li><a href="">Reptiles</a>
+ 					<ul class="SubMenu">
+						<li><a href="yacare.html">Yacaré</a></li>	
+					</ul> 
+				</li>
+				<li><a href="">Aves</a>
+ 					<ul class="SubMenu">
+						<li><a href="condor.html">Cóndor</a></li>
+						<li><a href="niandu.html">Ñandú</a></li>
+						<li><a href="tucan.html">Tucán</a></li>
+						<li><a href="pinguino.html">Pinguino</a></li>
+					</ul> 
+				</li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>	
+	</div>
+
+</header>
+
+<section>
+	<aside>
+		<div class="MenuVert">
+			<nav>
+				<ul>
+					<li><a href="carpincho.html">Carpincho</a></li>
+					<li><a href="ciervo.html">Ciervo</a></li>
+					<li><a href="coati.html">Coatí</a></li>
+					<li><a href="condor.html">Cóndor</a></li>
+					<li><a href="ballena.html">Ballena</a></li>
+					<li><a href="guanaco.html">Guanaco</a></li>
+					<li><a href="huemul.html">Huemul</a></li>
+					<li><a href="niandu.html">Ñandú</a></li>
+					<li><a href="pinguino.html">Pinguino</a></li>
+					<li><a href="puma.html">Puma</a></li>
+					<li><a href="tatu.html">Tatú Carreta</a></li>
+					<li><a href="tucan.html">Tucán</a></li>
+					<li><a href="yacare.html">Yacaré</a></li>
+					<li><a href="yaguarete.html">Yaguareté</a></li>
+				</ul>
+			</nav>			
+		</div>
+	</aside>
+	<div class="ArticuloContaco">
+		<article>
+			<h2>CONTACTANOS</h2>
+			
+			<br>
+			<form  action = "" method="_get">
+				<table>
+					<tr>
+						<td>Hoy es</td>
+						<td><input type="datetime-local" name="horaactual"></td>
+						<td></td>
+						<td></td>
+						<td><img src="imagenes/Isidoro.jpg" width="28%" height="28%"></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+  
+					<tr>
+						<td class="color">(*) Nombre</td>
+						<td><input type="text" required maxlength="35" size="40"  placeholder="es un texto" autofocus name = "nombre" id="nombre"/></td>
+						<td></td>
+						<td class="color">(*) Apellido</td>
+						<td><input type="text" required  maxlength="25" size="30" autocomplete="on"  name = "apellido" id="apellido"/></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<td class="color">(*) Mail</td>
+						<td><input type="email"  required="" name="correo" id="correo"/></td>
+						<td class="color">Celular </td>
+						<td class="color">(Formato: 99-9999-9999)</td>
+						<td><input type="tel" pattern="[0-9]{2}[0-9]{4}[0-9]{4}" name="te" id="te"></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<td class="color">Comentario:</td>
+						<td><textarea  rows="5" cols="50" name="contenido"> </textarea></td>
+						<td></td>
+						<td class="color">Fecha</td>
+						<td><input type="date" name="fecha" id="fecha"></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<td class="color">Nivel de</td>
+						<td><input type="checkbox" name = "notiene" id="notiene" value = "1" /> <label> No tiene</label></td>
+						<td class="color">Sexo</td>
+						<td><input type="radio"  checked name = "sexo" id="m" value = "1" /> <label> Femenino</label></td>
+						<td><input type="radio" name = "sexo" id="h" value = "2" /> <label for = "h"> Masculino</label></td>
+					</tr>
+
+					<tr>
+						<td class="color"> Estudio</td>
+						<td><input type="checkbox" name = "tecnico" id="tecnico" value = "2" /> <label> Técnico</label><br></td>
+						<td class="color">hora:</td>
+						<td><input type="time" name="HoraElegida"></td>
+					</tr>	
+
+					<tr>
+						<td></td>
+						<td><input type="checkbox" name = "universitario" id="universitario" value = "3" /> <label> Universitario</label><br></td>
+						<td class="boton"><input type="Reset" value="CANCELAR"/></td>
+						<td class="boton"><input type="Submit" value="ENVIAR" /></td>
+					</tr>
+				</table>
+			</form>
+		</article>		
+	</div>
+</section>
+<footer><h5>Fauna Argentina - 2019</h5></footer>
+</div>
+</body>
+</html>

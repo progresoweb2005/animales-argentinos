@@ -1,0 +1,481 @@
+.ArticuloAvesTitulo{
+	float: left;
+	width: 60%;
+	height: 10%;
+	margin-top: 60px;
+	margin-left: 5px;
+	border-style: solid;
+
+}
+
+.ArticuloAvesTitulo h2{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #FF8000;
+}
+
+.ArticuloAves{
+	float: left;
+	width: 60%;
+	height: 87%;
+	margin-top: 15px;
+	margin-left: 5px;
+border-style: solid;
+overflow: auto;
+}
+.ArticuloGaleriaAves{
+	float: left;
+	width: 19%;
+	height: 87%;
+	margin-left: 5px;
+	margin-top: 15px;
+border-style: solid;
+}
+
+.ArticuloAves .AvesTexto > h3{
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FF8000;
+}
+
+.ArticuloAves .AvesTexto > p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	width: 98%;
+	font-size: 15px;
+	float: left;
+
+}
+
+
+
+
+/************* Tucan *************/
+.ArticuloGaleriaAves .AvesImagen .Aves{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 0px;
+
+	width: 17%;
+	height: 30%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerAves;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerAves{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Tucan.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Tucan2.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Tucan3.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Tucan4.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Tucan.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Tucan6.jpg);
+		opacity: 1;
+	}
+}
+
+/*************************/
+
+
+
+/************* Ñandu *************/
+.ArticuloGaleriaAves .AvesImagen .AvesNiandu{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 0px;
+
+	width: 17%;
+	height: 30%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerAvesNiandu;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerAvesNiandu{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Niandu1.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Niandu2.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Niandu3.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Niandu4.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Niandu5.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Niandu6.jpg);
+		opacity: 1;
+	}
+}
+
+/*************************/
+
+
+
+
+
+
+/************* PINGUINO *************/
+
+.ArticuloAvesPinguino{
+	float: left;
+	width: 36%;
+	height: 87%;
+	margin-top: 15px;
+	margin-left: 5px;
+border-style: solid;
+overflow: auto;
+}
+
+.ArticuloGaleriaAvesPinguino{
+	float: left;
+	width: 48%;
+	height: 87%;
+	margin-left: 5px;
+	margin-top: 15px;
+border-style: solid;
+}
+
+
+.ArticuloAvesPinguino .AvesTexto > h3{
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FF8000;
+}
+
+.ArticuloAvesPinguino .AvesTexto > p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	width: 95%;
+	font-size: 15px;
+	float: left;
+
+}
+
+
+
+
+.ArticuloGaleriaAvesPinguino .AvesImagen .AvesPinguino{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	width: 600px;
+	height: 50%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerAvesPinguino;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerAvesPinguino{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Pinguino1.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Pinguino2.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Pinguino4.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Pinguino6.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Pinguino9.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Pinguino3.jpg);
+		opacity: 1;
+	}
+}
+
+/*********************************/
+
+
+
+/*************** condor ***********/
+.FormCondor{
+	padding-left: 15px;
+}
+
+.FormCondor select{
+	background-color: #FF9393;
+	
+}
+.FormCondor select option{
+	color: black;
+	font-weight: bolder;
+}
+.ArticuloGaleriaAvesPinguino .AvesImagen .AvesCondor{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	width: 600px;
+	height: 50%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerAvesCondor;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerAvesCondor{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Condor1.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Condor3.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Condor6.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Condor7.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Condor9.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Condor10.jpg);
+		opacity: 1;
+	}
+}
+
+/*********************************/

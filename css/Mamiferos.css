@@ -1,0 +1,431 @@
+
+.ArticuloMamiferos{
+	float: left;
+	width: 60%;
+	height: 99%;
+	margin-top: 60px;
+	margin-left: 5px;
+border-style: solid;
+
+}
+.ArticuloGaleriaMamiferos{
+	float: left;
+	width: 19%;
+	height: 99%;
+	margin-left: 5px;
+	margin-top: 60px;
+border-style: solid;
+}
+
+
+.ArticuloMamiferos h2{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #FF8000;
+}
+
+.ArticuloMamiferos .MamiferosTexto > h3{
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FF8000;
+}
+
+.ArticuloMamiferos .MamiferosTexto > p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	width: 98%;
+	font-size: 15px;
+	float: left;
+
+}
+
+
+
+.ArticuloGaleriaMamiferos .MamiferosImagen > img{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 30px;
+
+}
+
+.ArticuloMamiferos .MamiferosTexto > h3{
+	padding-left: 25px;
+}
+
+/************* CIERVO *************/
+.ArticuloGaleriaMamiferos .MamiferosImagen .ciervo{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 0px;
+
+	width: 17%;
+	height: 30%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerCiervo;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerCiervo{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Ciervo2.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Ciervo3.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Ciervo6.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Ciervo8.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Ciervo9.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Ciervo10.jpg);
+		opacity: 1;
+	}
+}
+
+/*************************/
+
+/***** CARPINCHO ********/
+.ArticuloMamiferosCarpinchoTitulo{
+	float: left;
+	width: 60%;
+	height: 10%;
+	margin-top: 60px;
+	margin-left: 5px;
+border-style: solid;
+
+}
+
+
+.ArticuloMamiferosCarpinchoTitulo h2{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #FF8000;
+}
+
+.ArticuloMamiferosCarpinchoScroll{
+	float: left;
+	width: 60%;
+	height: 87%;
+	margin-top: 15px;
+	margin-left: 5px;
+	border-style: solid;
+	overflow: auto;
+}
+.ArticuloMamiferosCarpinchoScroll .MamiferosTexto > h3{
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FF8000;
+}
+
+.ArticuloMamiferosCarpinchoScroll .MamiferosTexto > p{
+	padding-left: 13px;
+	padding-right: 15px;
+	padding-top: 13px;
+	text-align: justify;
+	width: 94%;
+	font-size: 15px;
+	float: left;
+
+}
+
+.ArticuloGaleriaMamiferosCarpincho{
+	float: left;
+	width: 19%;
+	height: 87%;
+	margin-left: 5px;
+	margin-top: 15px;
+border-style: solid;
+overflow: auto;
+}
+
+.ArticuloMamiferosCarpinchoScroll .MamiferosTexto > h3{
+	padding-left: 25px;
+}
+/**************************/
+
+/******** radio botton ****/
+.MamiferosRadio{
+	float: left;
+	width: 95%;
+	height: 10%;
+	margin-top: 10px;
+	margin-left: 10px;
+border-style: solid;
+}
+
+.MamiferosRadio td{
+	padding: 3px;
+}
+
+
+/********* TATU CARRETA ***************/
+.ArticuloGaleriaMamiferosTatu{
+	float: left;
+	width: 19%;
+	height: 88%;
+	margin-left: 5px;
+	margin-top: 15px;
+border-style: solid;
+}
+
+.ArticuloGaleriaMamiferosTatu .MamiferosImagen .tatu{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 0px;
+
+	width: 17%;
+	height: 30%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannertatu;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannertatu{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Tatu1.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Tatu2.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Tatu3.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Tatu4.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Tatu5.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Tatu6.jpg);
+		opacity: 1;
+	}
+}
+
+/*************************/
+
+
+/************* COATI *************/
+.ArticuloGaleriaMamiferosTatu{
+	float: left;
+	width: 19%;
+	height: 88%;
+	margin-left: 5px;
+	margin-top: 15px;
+border-style: solid;
+}
+.ArticuloGaleriaMamiferosTatu .MamiferosImagen .Coati{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 0px;
+
+	width: 17%;
+	height: 30%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerCoati;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerCoati{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Coati1.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Coati2.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Coati3.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Coati4.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Coati5.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Coati.jpg);
+		opacity: 1;
+	}
+}
+
+/*************************/

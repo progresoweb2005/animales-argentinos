@@ -1,0 +1,68 @@
+.ArticuloReptilesTitulo{
+	float: left;
+	width: 60%;
+	height: 10%;
+	margin-top: 60px;
+	margin-left: 5px;
+border-style: solid;
+
+}
+.ArticuloReptiles{
+	float: left;
+	width: 60%;
+	height: 87%;
+	margin-top: 15px;
+	margin-left: 5px;
+	border-style: solid;
+	overflow: auto;
+
+}
+.ArticuloGaleriaReptiles{
+	float: left;
+	width: 19%;
+	height: 84%;
+	margin-left: 5px;
+	margin-top: 15px;
+	padding-top: 14px;
+	border-style: solid;
+}
+
+
+.ArticuloReptilesTitulo h2{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #FF8000;
+}
+
+.ArticuloReptiles .ReptilesTexto > h3{
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FF8000;
+}
+
+.ArticuloReptiles .ReptilesTexto > p{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: justify;
+	width: 98%;
+	font-size: 15px;
+	float: left;
+
+}
+
+
+
+.ArticuloGaleriaReptiles .ReptilesImagen > img{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 30px;
+
+}

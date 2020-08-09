@@ -1,0 +1,428 @@
+
+/************* yaguarte, puma, ballena, huemul *************/
+.ArticuloMamiferosYaguareteTitulo{
+	float: left;
+	width: 60%;
+	height: 10%;
+	margin-top: 60px;
+	margin-left: 5px;
+	border-style: solid;
+
+}
+
+.ArticuloMamiferosYaguareteTitulo h2{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: #FF8000;
+}
+
+.ArticuloMamiferosYaguareteScroll{
+	float: left;
+	width: 36%;
+	height: 87%;
+	margin-top: 15px;
+	margin-left: 5px;
+border-style: solid;
+overflow: auto;
+}
+
+.ArticuloGaleriaMamiferosYaguarete{
+	float: left;
+	width: 48%;
+	height: 87%;
+	margin-left: 5px;
+	margin-top: 15px;
+border-style: solid;
+}
+
+
+.ArticuloMamiferosYaguareteScroll .MamiferosTexto > h3{
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	text-decoration: underline;
+	color: #FF8000;
+}
+
+.ArticuloMamiferosYaguareteScroll .MamiferosTexto > p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	width: 95%;
+	font-size: 15px;
+	float: left;
+
+}
+
+.ArticuloMamiferosYaguareteScroll .MamiferosTexto > form{
+	padding-left: 15px;
+	font-weight: bolder;
+	font-size: 16px;
+	color: #FF8000;
+}
+
+
+.ArticuloGaleriaMamiferosYaguarete .MamiferosImagen .Yaguarete{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	width: 600px;
+	height: 50%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerYaguarete;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerYaguarete{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Yaguarete1.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Yaguarete2.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Yaguarete5.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Yaguarete6.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Yaguarete8.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Yaguarete10.jpg);
+		opacity: 1;
+	}
+}
+
+/*********************************/
+
+/************ HUEMUL *************/
+
+.ArticuloGaleriaMamiferosYaguarete .MamiferosImagen .huemul{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	width: 600px;
+	height: 50%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerhuemul;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerhuemul{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Huemul3.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Huemul4.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Huemul5.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Huemul7.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Huemul8.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Huemul9.jpg);
+		opacity: 1;
+	}
+}
+
+/*********************************/
+
+/********* PUMA ******************/
+
+.ArticuloGaleriaMamiferosYaguarete .MamiferosImagen .puma{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	width: 600px;
+	height: 50%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerpuma;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerpuma{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/Puma3.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/Puma5.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/Puma7.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/Puma8.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/Puma9.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/Puma4.jpg);
+		opacity: 1;
+	}
+}
+
+/*********************************/
+
+
+/********* BALLENA ******************/
+
+.ArticuloGaleriaMamiferosYaguarete .MamiferosImagen .ballena{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 0px;
+	width: 600px;
+	height: 50%;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+
+
+	
+	background-size: 100% 100%;
+
+	animation-name:NombreBannerballena;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes NombreBannerballena{
+	0%, 14% 
+	{
+		background-image: url(../imagenes/ballena3.jpg);
+		opacity: 1;
+	}
+
+	15%, 18%
+	{
+		opacity: 0.1;
+	}
+
+	19%, 33% 
+	{
+		background-image: url(../imagenes/ballena2.jpg);
+		opacity: 1;
+	}
+
+	34%, 37%
+	{
+		opacity: 0.1;
+	}
+
+	38%, 52% 
+	{
+		background-image: url(../imagenes/ballena4.jpg);
+		opacity: 1;
+	}
+
+	53%, 56%
+	{
+		opacity: 0.1;
+	}
+
+	57%, 71% 
+	{
+		background-image: url(../imagenes/ballena7.jpg);
+		opacity: 1;
+	}
+
+	72%, 75%
+	{
+		opacity: 0.1;
+	}
+
+	76%, 90% 
+	{
+		background-image: url(../imagenes/ballena9.jpg);
+		opacity: 1;
+	}
+
+	91%, 94%
+	{
+		opacity: 0.1;
+	}
+
+	95%, 100% 
+	{
+		background-image: url(../imagenes/ballenafranca.jpg);
+		opacity: 1;
+	}
+}
+
+/*********************************/

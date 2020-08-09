@@ -1,0 +1,24 @@
+
+.BotonesColores .BotonVainilla a{
+		text-decoration: none;
+	list-style: none;
+	color: #F7DB8C;
+}
+
+.BotonesColores .BotonBordo a{
+		text-decoration: none;
+	list-style: none;
+	color: #990000;
+}
+
+.BotonesColores .BotonPlateado a{
+		text-decoration: none;
+	list-style: none;
+	color: #808080;
+}
+
+.BotonesColores .BotonAzul a{
+		text-decoration: none;
+	list-style: none;
+	color: #0000FF;
+}
